@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<meta name="description" content="e导">
+		<meta name="author" content="张高翔">
+
+		<title>E导</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<!-- Bootstrap core CSS -->
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- 本地 CSS -->
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+
+		<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+		<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<input type="hidden" id="language" value="ch" />
+
+		<div class="container">
+
+			<div class="row">
+
+				<!-- 返回 -->
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<img id="back" src="images/public/back.png" onclick="javascript:history.back(-1)">
+				</div>
+
+				<!-- 跳转 -->
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<!-- <img id="left" src="images/public/btn-left.png" onclick=""> -->
+				</div>
+
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+					<div id="title">辛亥风云</div>
+				</div>
+
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<img id="right" src="images/public/btn-right.png" onclick="">
+				</div>
+
+				<!-- 导览词 -->
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div id="text">
+						20世纪初的上海市资产阶级革命派的重要活动
+						基地之一。1903年，《苏报》连载邹容的《革 命军》，宣传反清革命思想。1904年陶成章等 在上海建立光复会。1907年，秋瑾主编的主张 女权的《中国女报》在上海创刊。这些新思想 对推动民族革命起了很大作用。此外，革命党 人宋教人、陈其美等积极联络各行业商圈，于 1911年7月在上海成立同盟会中部总会，促进了 长江中下游地区的革命活动。1911年10月10日， 武昌起义爆发，上海革命党人积极响应，于11 月3日举行武装起义并光复上海，建立了沪军部 督府。
+					</div>
+				</div>
+
+				<!-- 人物 -->
+				<div id="person">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<img id="1" class="img-responsive name center-block" src="images/detail/p1l1-1-name.png">
+						<img id="2" class="img-responsive name center-block" src="images/detail/p1l1-2-name.png">
+						<img id="3" class="img-responsive name center-block" src="images/detail/p1l1-3-name.png">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<img id="portrait" class="img-responsive" src="images/detail/p1l1-1.png">
+					</div>
+				</div>
+
+				<audio id="music" src="./audio/p1l1-1-audio.mp3"></audio>
+			</div>
+
+		</div>
+
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/detail.js"></script>
+	</body>
+
+</html>

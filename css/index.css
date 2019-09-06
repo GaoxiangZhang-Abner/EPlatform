@@ -1,0 +1,28 @@
+body {
+	font-family: STFangsong;
+}
+
+.bg {
+    
+}
+
+.logo {
+	max-width: 100%;
+	padding-top: 40px;
+	
+}
+
+.search {
+	padding-top: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.input-group-btn {
+	padding-left: 20px;
+}
+
+.animal {
+	padding-top: 70px;
+	max-width: 80%;
+}

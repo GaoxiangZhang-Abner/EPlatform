@@ -1,0 +1,36 @@
+#back {
+	padding-top: 10px;
+} 
+
+#dropdown {
+	padding-top: 10px;
+	float: right;
+}
+
+#title {
+	text-align: center;
+	padding-bottom: 40px;
+	
+}
+
+#introduction {
+	font-weight: bold;
+	background-color: rgba(200, 200, 200, 0.6);
+}
+
+#option {
+	position: absolute;
+	bottom: 100px;
+}
+
+#start {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 130px;
+	left: 50%;
+	bottom: 30px;
+	transform: translate(-50%, -50%);
+}

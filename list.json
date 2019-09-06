@@ -1,0 +1,18 @@
+{
+	"ch": {
+		"龙华烈士陵园": {
+			"bg": "lhlsly.png",
+			"title": "龙华烈士陵园纪念馆",
+			"introduction": "龙华烈士纪念馆展陈面积约6000平方米,分为上 下两层,展线长度1300米,基本陈列《英雄壮歌》一上海英烈纪念展,展览以“创新发展”为总体要求,紧扣“英雄之城孕育英雄,英雄精神激励后 人”主题,本着“以史叙事、以事带人、以人见 精神”的布展理念,使用照片1500余张、实物 400余件、油画、国画、螺钿、铜版、漆堆、玻 璃刻画等各种艺术品百余件,并辅以多种先进的陈展技术,集中展示了256位英雄人物的生平事迹。"
+		}
+	},
+
+	"en": {
+		"Longhua Martyr's Cemetery": {
+			"bg": "lhlsly.png",
+			"title": "Longhua Martyr's Cemetery",
+			"introduction": "Shanghai is the birthplace of the Communisl Party of China, the sacred land of China’s  revolution, the site of numerous sighificant inventions in China’s economic development, and the forefront of China’s opening-up and reform cause. Shanghai is also a city of heroes while Longhua Martyrs’ Memorial is their resting place."
+		}
+	}
+
+}

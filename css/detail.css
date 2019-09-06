@@ -1,0 +1,51 @@
+body {
+	background: url(../images/public/lhlsly.png) no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#back {
+	padding-top: 10px;
+} 
+
+
+#left {
+	display: inline; 
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+#title {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 40px;
+}
+
+#right {
+	display: inline; 
+	float: right;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+#text {
+	background-color: rgba(200, 200, 200, 0.6);
+	margin-bottom: 30px;
+}
+
+.name {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 70%;
+}
+
+#portrait {
+	width: 100%;
+}
+
+#person {
+	padding-top: 20px;
+	top: 10px;
+}

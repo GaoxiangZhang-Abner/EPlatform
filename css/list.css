@@ -1,0 +1,51 @@
+body {
+	background: url(../images/public/background.png) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#back {
+	padding-top: 10px;
+}
+
+/* .cell {
+	text-align: center;
+	background-image: url(../images/list/cell.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	
+} */
+
+.cell_img {}
+
+.cell_text {
+	color: white;
+	margin-top: -40px;
+	margin-bottom: 10px;
+}
+
+.cell {
+	text-align: center;
+}
+
+.collapse_text {
+	background-color: rgba(200, 200, 200, 0.6);
+}
+
+ul li {
+	color: red;
+	font-size: 20px;
+}
+
+ul li div {
+	color: black;
+	font-size: 15px;
+}
+
+ul li div a:link {
+	color: black;
+}
+
+ul li div a:hover {
+	color: red;
+}

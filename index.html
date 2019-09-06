@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<meta name="description" content="e导">
+		<meta name="author" content="张高翔">
+
+		<title>E导</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<!-- Bootstrap core CSS -->
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- 本地 CSS -->
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+		
+		<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+		<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+			<div class="row">
+
+				<div class="btn-group btn-group-justified" role="group">
+					<div class="btn-group" role="group">
+						<button id="cn" type="button" class="btn btn-danger">中文</button>
+					</div>
+					<div class="btn-group" role="group">
+						<button id="en" type="button" class="btn btn-default">English</button>
+					</div>
+				</div>
+				<input type="hidden" id="language" value="ch"/>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+				</div>
+
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+					<img class="img-responsive center-block logo" src="images/index/logo.png">
+				</div>
+
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="input-group search">
+						<input id="search-input" type="text" class="form-control" placeholder="你想去哪儿呢？">
+						<span class="input-group-btn">
+							<input id="search-btn" type="image" src="images/index/button.png" />
+						</span>
+					</div><!-- /input-group -->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<img class="img-responsive center-block animal" src="images/index/animal.png">
+				</div>
+			</div>
+
+		</div> <!-- /container -->
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js"></script>
+	</body>
+
+</html>

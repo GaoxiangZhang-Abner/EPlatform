@@ -33,6 +33,7 @@ $(".name").click(function() {
 	var music = document.getElementById("music");
 	var musicSrc= "./audio/p1l1-" + id + "-" + audio + "-audio.mp3";
 	music.src = musicSrc;
+	music.load(); // 解决iphone无法播放audio的问题
 	music.play(); //开始播放
 	console.log(musicSrc)
 	

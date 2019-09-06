@@ -16,7 +16,12 @@
 })(jQuery);
 
 
-$(".name").click(function() {
+var name1 = document.getElementById("1");
+var name2 = document.getElementById("2");
+var name3 = document.getElementById("3");
+var music = document.getElementById("music");
+
+var onClick = function() {
 	
 	// 获取地址栏参数
 	var url = window.location.href;
@@ -30,16 +35,20 @@ $(".name").click(function() {
 	var language = $("#language").val();
 	
 	// 音乐播放
-	var music = document.getElementById("music");
+	// var music = document.getElementById("music");
 	var musicSrc= "./audio/p1l1-" + id + "-" + audio + "-audio.mp3";
 	music.src = musicSrc;
-	music.load(); // 解决iphone无法播放audio的问题
 	music.play(); //开始播放
 	console.log(musicSrc)
 	
 	// 更换图片
+	
 	var portrait = document.getElementById("portrait");
 	var portraitSrc = "./images/detail/p1l1-" + id + ".png"
 	portrait.src = portraitSrc;
 	
-})
+}
+
+name1.addEventListener('click', onClick, false);
+name2.addEventListener('click', onClick, false);
+name3.addEventListener('click', onClick, false);
